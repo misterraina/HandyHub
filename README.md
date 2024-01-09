@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# HandyHub
+"HandyHub is the project I've chosen to enhance my full-stack journey, aiming to bolster my skills and confidence in web development. It bridges gaps between local service providers and users, offering a streamlined platform connecting skilled professionals with individuals needing services in the community." 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
+Key Features:
+User Profiles: Create detailed profiles showcasing your skills or requirements.
+Ratings & Feedback: Build trust through ratings and feedback on service quality.
+Job Posting: Post your service offerings or find gigs matching your requirements.
+Search Filters: Easily find the right service provider or job opportunity.
+Messaging System: Communicate with ease for discussing job details and requirements.
 
-## Available Scripts
+Two-sided marketplace:
 
-In the project directory, you can run:
+For "Get Hired" Section:
+Homepage Selection: Upon opening the site, present the options clearly: "Hire" or "Get Hired."
+User Authentication: For those "Getting Hired," prompt user authentication to set up profiles.
+Profile Creation: Enable users to create detailed profiles showcasing their skills, services offered, experience, etc.
+Rating & Feedback: Implement a rating and feedback system for the services offered, helping build credibility.
+Search Filters: Provide users with search filters to find specific services or skill sets easily.
+Job Gigs Posting: Allow users to post job gigs or services they offer.
 
-### `npm start`
+For "To Hire" Section:
+Anonymous Browsing: Enable browsing for users who haven't logged in, restricting access to certain details like contact info.
+Advertisement Monetization: Implement targeted ads for non-logged-in users to generate revenue.
+Shared Functionality:
+Messaging System: Develop a messaging feature for communication between both parties.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Roadmap
+Code from Scratch 👨🏻‍💻
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Planning and Preparation
+    1. Idea Clarification and requirements.
+    2. Research.
+    3. Wireframing: Create basic sketches or layout and features to visualize the structure.
+    4. Tech Stack Selection:  `React`, `Node.js`, `Postgresql` etc based on requirements.
+    5. Database Design: Planing and designing the database structure if the project involves data storage (user profiles, messages, job postings, etc.).
 
-### `npm test`
+- Phase 2: Setting Up the Environment
+    1. Environment Setup, software and tools like editors, version control, and required libraries/frameworks.
+    2. Project Initialization: Creating the project structure and set up the initial file/folder organization.
+ 
+- Phase 3: Core Development
+    1. Authentication and User Profiles: Implementing user authentication for login/signup and set up user profile creation.
+    2. Profile Listing and Search: Developing functionalities to list and filter profiles based on job categories, ratings, etc.
+    3. Messaging System: Create a way for users to communicate with each other within the platform.
+    4. Job Posting/Gigs: Allow users to post jobs or gigs and manage their listings.
+    5. Rating and Feedback: Develop a system for users to leave ratings and feedback for services received.
+       
+- Phase 4: Testing and Refinement
+    1. Testing: Perform thorough testing across different devices and browsers to identify and fix bugs.
+    2. Feedback Collection: Gather feedback from potential users or colleagues and incorporate necessary improvements.
+    3. Optimization: Optimize performance and `responsiveness` for a smooth user experience.
+       
+- Phase 5: Deployment and Launch
+    1. Hosting platforms ~ Heroku, Netlify, or Vercel.
+    2. Launch 
+    3. Post-Launch Monitoring: Monitor the platform for user feedback, bugs, or any unforeseen issues.
+    4. Remember, it's okay to adapt and modify your roadmap along the way. Start small, take incremental steps, and gradually build upon your project!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
