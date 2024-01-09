@@ -25,6 +25,22 @@ Advertisement Monetization: Implement targeted ads for non-logged-in users to ge
 Shared Functionality:
 Messaging System: Develop a messaging feature for communication between both parties.
 
+
+## Running the Project Locally
+
+To run this project in your local environment, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+
+### Installation
+
+Use npm to install the necessary dependencies.
+
+  ```bash
+   npm install
+```
+
 # Roadmap
 Code from Scratch 👨🏻‍💻
 
