@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.headerBox{
+    display: flex;
+    width: 850px;
+    border: 1px solid #b4848467;
+    padding: 20px;
+}
+
+.headerTitle{
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+
+.headerTitleSm{
+    padding-bottom: 10px;
+    font-size: 45px;
+    font-family: "Dancing Script", cursive;
+}
+
+.headerDesc{
+    line-height: 32x;
+    font-size: 22px;
+    /* font-family: "Dancing Script", cursive; */
+    font-family: "Nunito", sans-serif;
+}
+
+.headerImg{
+    width: 450px;
+    height: 450px;
+    /* margin-top: 80px; */
+    object-fit: cover;
+}
