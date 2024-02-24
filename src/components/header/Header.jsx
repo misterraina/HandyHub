@@ -10,8 +10,12 @@ export default function Header() {
       <img className="headerImg" src={headerImage} alt="header" />
 
       <div className="headerTitle">
-        <h2 className="headerTitleSm">Read this</h2>
-        <p className="headerDesc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia aliquam delectus soluta, cumque asperiores eveniet fuga aperiam totam repudiandae dignissimos earum exercitationem, alias corrupti nisi quia harum saepe fugit, modi quis recusandae? Accusantium, suscipit dolor!</p>
+        <h2 className="headerTitleSm">Financial Freedom Awaits</h2>
+        <p className="headerDesc">Entrepreneurs embrace opportunity.
+
+        <br />
+
+         Legends like <span className="legends">Steve Jobs</span> and <span className="legends">Oprah Winfrey</span> prove that seizing chances leads to financial success</p>
       </div>
 
 

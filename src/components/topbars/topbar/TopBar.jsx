@@ -1,5 +1,5 @@
 import "./topBar.css"
-import imgCenter from "../../images/logo_Center.png"
+import imgCenter from "../../../images/logo_Center.png"
 
 export default function TopBar() {
   return (
@@ -28,7 +28,8 @@ export default function TopBar() {
      
 
       <div className="topRight">
-        <span className="topLogin">Login</span>
+              <button class="topRightJoinButton">JOIN</button>
+
 
         </div>
 

@@ -2,22 +2,21 @@
     width: 100%;
     height: 10vh;
     position: sticky;
-    background-color: wheat;
+    background-color: white;
     top: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
+    font-size: 20px;    
 }
 
 .topRight{
     flex: 3;
-    text-align: right;
     margin-left: 60px;
-    margin-right: 40px;
-    align-items: center;
+    margin-right: 60px;
+    align-items:center;
     justify-content: center;
-    
+    text-align: right;
 }
 
 .topLeft{
@@ -42,29 +41,43 @@
     cursor: pointer;
 }
 
-.topLogin{
-    cursor: pointer;
-}
-
 .topList{
     display: flex;
     justify-content: center;
     list-style: none;
     margin: 0;
     padding: 0;
+    font-size: 25px;
+        
 }
 
 .topListItems{
     margin-right: 20px;
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
     cursor: pointer;
 }
 
-.topSearchIcon{
-    font-size: 20px;
-    color: #666;
-    /* visibility: none; */
+.topRightJoinButton {
+    background-color: none; 
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
     cursor: pointer;
-    margin-left: 15px;
-}
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+  }
+  
+  .topRightJoinButton:hover {
+      background-color: #45a049; 
+      color: white;
+      border: 2px solid white;
+      border-radius: 6px;
+  }
+  
+
+  
