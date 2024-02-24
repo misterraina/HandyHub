@@ -1,7 +1,94 @@
 .footer {
-    display: flex;
-    justify-content: center;
     width: 100%;
-    bottom: 0;
+    /* height: 100vh; */
+    margin-bottom: 0;
     margin-top: 50px;
   }
+
+.footerUpper{
+  display: flex;
+    justify-content:space-evenly;
+}
+
+.footerSubItems{
+  font-weight: 600;
+}
+
+.footerImgLogo{
+  width:120px ;
+}
+
+.footerList{
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.footerLowerImg{
+  width: 60px;
+  height: 60px;
+  opacity: 0.5;
+}
+
+.lowerLeftCopyR{
+  margin-left: 25px;
+}
+
+.footerListItems{
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.footerLower{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lowerLeft{
+  display: flex;
+  flex: 4;
+  font-size: 18px;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.lowerLeftCopyR{
+  color: #444444f2;
+  margin-left: 20px;
+}
+
+.lowerRight{
+  display: flex;
+  flex: 6;
+  justify-content: flex-end;
+  font-size: 18px;
+  margin-right: 30px;
+  color: #444;
+}
+
+.lowerRightListIcon{
+  display: flex;
+  list-style: none;
+  margin-right: 50px;
+}
+
+.lowerRightListIconItems{
+  margin-left: 20px;
+}
+
+.lowerRightListIconItems:hover{
+  color: #212121;
+  cursor: pointer;
+  /* background-color: #4444; */
+}
+
+.lowerRightItems{
+  margin-left: 20px;
+}
+
+hr {
+  border: none;
+  height: 1px; /* Adjust height as needed */
+  background-color: #444; /* Change the color */
+  opacity: 0.2; /* Change the opacity */
+}

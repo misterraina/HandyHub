@@ -10,6 +10,7 @@ export default function Home() {
     <div className="HomeContainer">
       <Categories/>
       <ServiceListingSidebar/>
+      
     </div>
     </>
   )
