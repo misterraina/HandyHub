@@ -41,6 +41,11 @@
     cursor: pointer;
 }
 
+.topLogo:hover{
+    width: 90px;
+    transition: width 0.3s;
+}
+
 .topList{
     display: flex;
     justify-content: center;
@@ -59,15 +64,23 @@
     cursor: pointer;
 }
 
+.topListItems:hover{
+    font-size: 18px;
+    color: #3e3e3e; 
+    transition: font-size 0.2s, color 0.2s
+
+}
+
+
 .topRightJoinButton {
     background-color: none; 
     color: #4CAF50;
     border: 2px solid #4CAF50;
-    padding: 10px 20px;
+    padding: 8px 14px;
     border-radius: 5px;
     transition: background-color 0.3s;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 500;
   }

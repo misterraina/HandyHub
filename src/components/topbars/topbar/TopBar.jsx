@@ -28,7 +28,7 @@ export default function TopBar() {
      
 
       <div className="topRight">
-              <button class="topRightJoinButton">JOIN</button>
+              <button class="topRightJoinButton">JOIN <i class="fa-solid fa-indian-rupee-sign"></i></button>
 
 
         </div>
